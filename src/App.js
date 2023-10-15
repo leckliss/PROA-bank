@@ -9,7 +9,7 @@ import Aplicativo from './components/aplicativo/aplicativo';
 import Cartoes from './components/cartoes/cartoes';
 import Grafico from './components/grafico/grafico';
 import Sobre from './components/sobre/sobre';
-
+import Footer from './components/footer/footer';
 function App() {
 
   const [captcha, setCaptcha] = useState("");
@@ -30,6 +30,7 @@ function App() {
       <Cartoes />
       <Grafico />
       <Sobre/>
+      <Footer />
     </div>
   );
 }

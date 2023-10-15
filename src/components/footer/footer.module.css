@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+}
+
+@font-face {
+    font-family: "NeoSansProRegular";
+    src: local("NeoSansProRegular"),
+        url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProRegular.OTF") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NeoSansProBold";
+    src: local("NeoSansProBold"),
+        url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProBold.OTF") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NeoSansProMedium";
+    src: local("NeoSansProMedium"),
+        url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProMedium.OTF") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NeoSansProLight";
+    src: local("NeoSansProLight"),
+        url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProLight.OTF") format("truetype");
+    font-weight: normal;
+}
+
+footer {
+    margin-top: 10vh;
+    width: 100%;
+    height: 50vh;
+    background-color: #01b5f2;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+footer p,ul,li {
+    color: #FFF;
+    font-family: "NeoSansProMedium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+footer li{
+    cursor: pointer;
+}
