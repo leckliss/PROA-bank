@@ -9,7 +9,7 @@ export default function Sobre() {
 
             <div className={Styles.sobres}>
 
-                    <img src={FotoSobre} alt="Imagem de proanos" data-aos='fade-up-right' data-aos-duration="500"  />
+                    <img src={FotoSobre} alt="Imagem de proanos" data-aos='fade-right' data-aos-duration="1000"  />
                     <div className={Styles.sobreproa}>
                         <h2>Sobre o PROA</h2>
                         <h3>O Instituto PROA nasceu em 2007 com o objetivo de criar oportunidades de desenvolvimento pessoal e profissional para jovens de baixa renda vindos de escola pública, ajudando-os a se tornarem protagonistas de suas próprias histórias e ingressarem no mercado de trabalho.</h3>

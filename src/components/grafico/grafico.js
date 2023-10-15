@@ -11,7 +11,7 @@ export default function Grafico() {
 
             <div className={Styles.graficocelular}>
 
-                    <img src={GraficoCelular} alt="Imagem de um smartphone com o aplicativo do PROA bank em tela, ao fundo o cartão do PROA bank na aba de Carteira Digital" data-aos='fade-up-right' data-aos-duration="500"  />
+                    <img src={GraficoCelular} alt="Imagem de um smartphone com o aplicativo do PROA bank em tela, ao fundo o cartão do PROA bank na aba de Carteira Digital" data-aos='fade-up-right' data-aos-duration="1000"  />
                     <div className={Styles.controlegastos}>Tenha um controle de gastos rápido e prático para um melhor gerenciamento e organização</div>
             </div>
         </section>
