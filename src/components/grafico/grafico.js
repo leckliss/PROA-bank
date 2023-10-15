@@ -3,7 +3,7 @@ import Styles from './grafico.module.css';
 import '../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProRegular.OTF';
 
 
-export default function Aplicativo() {
+export default function Grafico() {
     return (
         <section className={Styles.section4}>
             
