@@ -40,7 +40,7 @@ export default function Aplicativo() {
                     <div className={Styles.apptext1}>
                         <h3>Apesar do nome PROA bank somos a junção de carteira digital e conta digital, uma nova maneira de realizar pagamentos com consciência, mesmo com pouco dinheiro, te mostraremos como você pode economizar e investir!</h3>
                     </div>
-                    <div className={Styles.apptext2}>
+                    <div className={Styles.apptext2} data-aos='fade-up-right' data-aos-duration="500" >
                         <h1>Um Mega App completo para te ajudar no dia-a-dia</h1>
                         <h3>Conta digital, controle de cartões com Carteira Digital, investimentos, aulas, gráficos de controle financeiro e muito mais.
                             Tudo isso sem mudar de aplicativo.</h3>
@@ -48,7 +48,7 @@ export default function Aplicativo() {
                 </div>
 
                 <div className={Styles.appimg} >
-                    <img src={App1} alt="Imagem de um smartphone com o aplicativo do PROA bank em tela, ao fundo o cartão do PROA bank" data-aos='fade-up-left' />
+                    <img src={App1} alt="Imagem de um smartphone com o aplicativo do PROA bank em tela, ao fundo o cartão do PROA bank" data-aos='fade-up-left' data-aos-duration="500" />
                 </div>
             </div>
         </section>
