@@ -11,6 +11,12 @@
         url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProRegular.OTF") format("truetype");
     font-weight: normal;
 }
+@font-face {
+    font-family: "NeoSansProBold";
+    src: local("NeoSansProBold"),
+        url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProBold.OTF") format("truetype");
+    font-weight: normal;
+}
 
 .section2 {
     width: 100%;
@@ -52,7 +58,7 @@
     margin-top: 10vh;
     color: #1C3380;
     text-align: center;
-    font-family: "Neo Sans Pro";
+    font-family: "NeoSansProBold";
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
