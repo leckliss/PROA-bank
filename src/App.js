@@ -8,6 +8,7 @@ import Principal from './components/principal/principal';
 import Aplicativo from './components/aplicativo/aplicativo';
 import Cartoes from './components/cartoes/cartoes';
 import Grafico from './components/grafico/grafico';
+import Sobre from './components/sobre/sobre';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <Aplicativo />
       <Cartoes />
       <Grafico />
+      <Sobre/>
     </div>
   );
 }
