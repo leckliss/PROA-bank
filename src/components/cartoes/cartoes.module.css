@@ -11,20 +11,33 @@
         url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProRegular.OTF") format("truetype");
     font-weight: normal;
 }
+
 @font-face {
     font-family: "NeoSansProBold";
     src: local("NeoSansProBold"),
         url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProBold.OTF") format("truetype");
     font-weight: normal;
 }
+@font-face {
+    font-family: "NeoSansProMedium";
+    src: local("NeoSansProMedium"),
+        url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProMedium.OTF") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "NeoSansProLight";
+    src: local("NeoSansProLight"),
+        url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProLight.OTF") format("truetype");
+    font-weight: normal;
+}
+
 
 .section3 {
     width: 100%;
-    height: 300vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: antiquewhite;
 }
 
 .titulos {
@@ -37,4 +50,62 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+
+.cartoes1 {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.aosolicitar {
+    text-align: center;
+    width: 270px;
+    height: 203px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "NeoSansProLight";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cartoes2 {
+    margin-top: -100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.desdeascores {
+    text-align: center;
+    width: 300px;
+    height: 210px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "NeoSansProLight";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.faltoucriatividade {
+    margin-top: 30vh;
+    text-align: center;
+    width: 300px;
+    height: 210px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "NeoSansProLight";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

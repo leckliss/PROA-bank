@@ -25,12 +25,6 @@ function App() {
     <div className="App">
       <Header />
       <Principal />
-      <button onClick={onClick}>Clique em Mim</button>
-      <ReCAPTCHA
-        sitekey="6LfMo6EoAAAAANKcl0xv3dmGqmhvbIgWfqzKpjYl"
-        onChange={setCaptcha}
-      />
-
       <Aplicativo />
       <Cartoes />
       <Grafico />
