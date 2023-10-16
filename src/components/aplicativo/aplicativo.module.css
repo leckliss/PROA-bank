@@ -11,18 +11,21 @@
         url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProRegular.OTF") format("truetype");
     font-weight: normal;
 }
+
 @font-face {
     font-family: "NeoSansProBold";
     src: local("NeoSansProBold"),
         url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProBold.OTF") format("truetype");
     font-weight: normal;
 }
+
 @font-face {
     font-family: "NeoSansProMedium";
     src: local("NeoSansProMedium"),
         url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProMedium.OTF") format("truetype");
     font-weight: normal;
 }
+
 @font-face {
     font-family: "NeoSansProLight";
     src: local("NeoSansProLight"),
@@ -90,9 +93,11 @@
     justify-content: center;
     gap: 20vh;
 }
+
 .apptext {
     margin-top: 10vh;
 }
+
 .apptext1 {
     width: 583px;
     height: 500px;
@@ -118,6 +123,10 @@
     width: 583px;
     height: 545px;
     margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .apptext2 h1 {
@@ -140,12 +149,28 @@
     font-weight: 400;
     line-height: normal;
 }
-@media screen and (max-width:780px) {
-   .aplicativo {
-    flex-direction: column;
-   }
-   .appimg{
-    margin-top: -30vh;
-   }
-}
 
+@media screen and (max-width:780px) {
+    .aplicativo {
+        flex-direction: column;
+    }
+
+    .appimg {
+        margin-top: -25vh;
+    }
+
+    .aplicativo h3 {
+        width: 80%;
+        height: auto;
+    }
+
+    .articles {
+        margin-top: 5vh;
+    }
+
+    .articles article {
+        width: 30%;
+
+
+    }
+}

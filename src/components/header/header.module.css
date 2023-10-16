@@ -66,12 +66,51 @@ nav ul li {
     padding: 15px;
     height: 50px;
     cursor: pointer;
-}
+  }
 
 nav ul li:hover {
     height: 45px;
     border-bottom: 5px solid #ffcc00;
 }
+
+/* Ícone do hambúrguer */
+.hamburgerMenu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hamburgerOpen {
+    transform: rotate(45deg);
+    margin: 10px 0;
+  }
+  
+  /* Menu mobile */
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    background-color: #1c3380;
+  }
+  
+  .mobileMenu li {
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .mobileMenu li:hover {
+    background-color: rgba(255, 204, 0, 0.2);
+  }
+  
 
 @media screen and (max-width:780px) {
     header {
