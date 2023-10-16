@@ -39,6 +39,7 @@ export default function Aplicativo() {
                 <div className={Styles.apptext}>
                     <div className={Styles.apptext1}>
                         <h3>Apesar do nome PROA bank somos a junção de carteira digital e conta digital, uma nova maneira de realizar pagamentos com consciência, mesmo com pouco dinheiro, te mostraremos como você pode economizar e investir!</h3>
+                        <div className={Styles.botao}>CRIAR CONTA</div>
                     </div>
                     <div className={Styles.apptext2} data-aos='fade-up-right' data-aos-duration="500" >
                         <h1>Um Mega App completo para te ajudar no dia-a-dia</h1>

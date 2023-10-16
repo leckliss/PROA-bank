@@ -102,10 +102,11 @@
     width: 583px;
     height: 500px;
     border-radius: 30px;
-    background: #1C3380;
+    background-color: #142869;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .apptext1 h3 {
@@ -117,6 +118,32 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.botao{
+    background-color: #228be6;
+    width: 30%;
+    height: 40px;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "NeoSansProBold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao:hover{
+    height: 38px;
+    color: black;
+    border: 2px solid #000;
+    transition: 0.5s;
 }
 
 .apptext2 {

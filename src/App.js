@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './App.css';
 import ReCAPTCHA from "react-google-recaptcha";
 
@@ -22,11 +22,13 @@ function App() {
     }
   }
 
+  const aplicativoRef = useRef(null);
+
   return (
     <div className="App">
       <Header />
-      <Principal />
-      <Aplicativo />
+      <Principal aplicativoRef={aplicativoRef} />
+      <Aplicativo ref={aplicativoRef} />
       <Cartoes />
       <Grafico />
       <Sobre/>

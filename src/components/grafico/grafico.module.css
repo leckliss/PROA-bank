@@ -87,7 +87,36 @@
     justify-content: center;
     margin-bottom: 100px;
     z-index: 1;
+    flex-direction: column;
 }
+.botao2{
+    background-color: #ff039a;
+    width: 30%;
+    height: 40px;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "NeoSansProBold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao2:hover{
+    height: 38px;
+    color: black;
+    border: 2px solid #000;
+    transition: 0.5s;
+}
+
+
 @media screen and (max-width:780px) {
     .graficocelular {
         flex-direction: column;
