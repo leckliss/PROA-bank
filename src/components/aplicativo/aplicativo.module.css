@@ -154,23 +154,31 @@
     .aplicativo {
         flex-direction: column;
     }
-
-    .appimg {
-        margin-top: -25vh;
-    }
-
-    .aplicativo h3 {
-        width: 80%;
-        height: auto;
-    }
-
     .articles {
         margin-top: 5vh;
     }
 
     .articles article {
         width: 30%;
+    }
+    .articles article h2 {
+        font-size: 20px;
+    }
+    
+    .aplicativo h3 {
+        width: 70%;
+        height: auto;
+    }
+    .aplicativo h1 {
+        width: 70%;
+        height: auto;
+    }
+    .apptext h3 {
+        width: 70%;
+        height: auto;
+    }
 
-
+    .appimg {
+        margin-top: -20vh;
     }
 }

@@ -111,3 +111,14 @@
     font-weight: 400;
     line-height: normal;
 }
+@media screen and (max-width:780px) {
+    .cartoes1 {
+        flex-direction: column;
+    }
+    .cartoes2{
+        flex-direction: column;
+    }
+    .faltoucriatividade{
+        margin-top: 5vh;
+    }
+}
