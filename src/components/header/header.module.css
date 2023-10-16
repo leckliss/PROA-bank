@@ -1,16 +1,18 @@
-*{
+* {
     padding: 0;
     border: 0;
     margin: 0;
 
 }
+
 @font-face {
     font-family: "NeoSansProRegular";
     src: local("NeoSansProRegular"),
-     url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProRegular.OTF") format("truetype");
+        url("../../assets/fonts/neo-sans-pro-cdnfonts/NeoSansProRegular.OTF") format("truetype");
     font-weight: normal;
-   }
-header{
+}
+
+header {
     width: 100%;
     height: 150px;
     font-family: "NeoSansProRegular";
@@ -19,12 +21,14 @@ header{
     position: fixed;
     z-index: 3;
 }
-.scrolled{
-    height: 90px;
+
+.scrolled {
+    height: 85px;
     transition: 0.5s ease-in-out;
     background-color: #1c3380;
 }
-nav{
+
+nav {
     width: 100%;
     height: 100%;
     display: flex;
@@ -32,20 +36,23 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-.logo{
+
+.logo {
     width: 140px;
     height: 90px;
     background-image: url(../../assets/img/logo.png);
     background-repeat: no-repeat;
     cursor: pointer;
 }
-.scrolledlogo{
+
+.scrolledlogo {
     width: 250px;
     height: 50px;
     background-image: url(../../assets/img/logo-horinzontal.png);
     background-repeat: no-repeat;
 }
-nav ul{
+
+nav ul {
     width: 70%;
     height: 90px;
     display: flex;
@@ -54,12 +61,28 @@ nav ul{
     justify-content: space-between;
     list-style: none;
 }
-nav ul li{
+
+nav ul li {
     padding: 15px;
-    height:50px;
+    height: 50px;
     cursor: pointer;
 }
-nav ul li:hover{
+
+nav ul li:hover {
     height: 45px;
     border-bottom: 5px solid #ffcc00;
+}
+
+@media screen and (max-width:780px) {
+    header {
+        background-color: #1c3380;
+        height: 100px;
+    }
+    .scrolled {
+        height: 75px;
+    }
+
+    nav ul {
+        display: none;
+    }
 }

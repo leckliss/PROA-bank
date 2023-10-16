@@ -140,4 +140,12 @@
     font-weight: 400;
     line-height: normal;
 }
+@media screen and (max-width:780px) {
+   .aplicativo {
+    flex-direction: column;
+   }
+   .appimg{
+    margin-top: -30vh;
+   }
+}
 
