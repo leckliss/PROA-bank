@@ -17,7 +17,8 @@ export default function Footer() {
             </p>
 
             <ul>
-                MAPA DO SITE
+                MAPA DO SITE:
+                <br /><br />
                 <li>AREA DO CLIENTE</li>
                 <li>ATENDIMENTO</li>
                 <li>PRODUTOS</li>

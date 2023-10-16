@@ -62,7 +62,6 @@
     flex-direction: row;
     align-items: center;
     justify-content:center;
-    background-color: khaki;
 }
 .graficocelular img{
     z-index: 2;
@@ -88,4 +87,16 @@
     justify-content: center;
     margin-bottom: 100px;
     z-index: 1;
+}
+@media screen and (max-width:780px) {
+    .graficocelular {
+        flex-direction: column;
+    }
+    .graficocelular img{
+        width: 95%;
+    }
+    .controlegastos {
+        margin-left: 0;
+        width: 90%;
+    }
 }
